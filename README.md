@@ -7,7 +7,7 @@
 
 
 # django-rest-framework-interview-questions
-### Viewsets
+### Viewsets [must-view DIAGRAM][]
 - REST framework provides an `APIView` class, which subclasses Django's `View` class. [DOCS](https://www.django-rest-framework.org/api-guide/views/)
 ```
 from rest_framework.views import APIView
@@ -34,4 +34,5 @@ class ListUsers(APIView):
 ```
 `The view return browsable response or just JSON response based on request. In browser it will show the class-docs defined in comment after class defination`
 `Currently out View can only accept GET call. We can extend it by add more class-method .get(), .post(), put(), patch() and .delete()`
+
 
