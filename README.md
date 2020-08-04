@@ -7,7 +7,7 @@
 
 
 # django-rest-framework-interview-questions
-### Viewsets [must-view DIAGRAM][]
+### Viewsets [must-view DIAGRAM](https://github.com/rayvikram/cheatsheets/blob/master/Django/DjangoViewsets.pdf)
 - REST framework provides an `APIView` class, which subclasses Django's `View` class. [DOCS](https://www.django-rest-framework.org/api-guide/views/)
 ```
 from rest_framework.views import APIView
